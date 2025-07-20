@@ -1,0 +1,8 @@
+{
+  "name": "nikhilratate",
+  "compatibility_date": "2025-07-20",
+  "main": "src/worker.ts", // if you have worker logic; otherwise omit
+  "assets": {
+    "not_found_handling": "single-page-application"
+  }
+}
