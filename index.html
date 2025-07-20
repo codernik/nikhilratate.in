@@ -1,88 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        html {
-            box-sizing: border-box;
-            font-size: 16px;
-        }
-
-        *,
-        *:before,
-        *:after {
-            box-sizing: inherit;
-        }
-
-        body,
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6,
-        p,
-        ol,
-        ul {
-            margin: 0;
-            padding: 0;
-            font-weight: normal;
-        }
-
-        ol,
-        ul {
-            list-style: none;
-        }
-
-        img {
-            max-width: 100%;
-            height: auto;
-        }
-
-        .wrapper {
-            background: #000;
-            height: 100vh;
-            /*This part is important for centering*/
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .typing-demo {
-            color: #fff;
-            width: 22ch;
-            animation: typing 2s steps(22), blink .5s step-end infinite alternate;
-            white-space: nowrap;
-            overflow: hidden;
-            border-right: 3px solid;
-            font-family: monospace;
-            font-size: 2em;
-        }
-
-        @keyframes typing {
-            from {
-                width: 0
-            }
-        }
-
-        @keyframes blink {
-            50% {
-                border-color: transparent
-            }
-        }
-    </style>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap"
+      rel="stylesheet"
+    />
     <title>Nikhil Ratate</title>
-</head>
-
-<body>
-    <div class="wrapper">
-        <div class="typing-demo">
-            This is Nikhil Ratate.
-        </div>
-    </div>
-</body>
-
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
