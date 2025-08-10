@@ -12,7 +12,9 @@ function App() {
         smooth={true}
       />
       <div className="content-wrapper">
-        <p className="text">Nikhil Ratate</p>
+        <p className="title">Nikhil Ratate</p>
+        <p className="subtitle">Software Engineer from Mumbai, India</p>
+        
       </div>
     </>
   );

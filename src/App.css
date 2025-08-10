@@ -25,14 +25,24 @@
   z-index: 1;
   pointer-events: none;
 }
-.content-wrapper .text {
+.content-wrapper .title {
   text-shadow: rgba(0, 0, 0, 0.5) 0px 0px 16px;
   margin-top: var(--chakra-spacing-4);
   color: var(--chakra-colors-white);
   font-size: clamp(2rem, 4vw, 2.6rem);
   line-height: 1.2;
   text-align: center;
-  letter-spacing: -2px;
+  /* letter-spacing: -2px; */
   max-width: 18ch;
+  font-weight: var(--chakra-font-weights-bold);
+}
+.content-wrapper .subtitle {
+  text-shadow: rgba(0, 0, 0, 0.5) 0px 0px 16px;
+  margin-top: var(--chakra-spacing-4);
+  color: var(--chakra-colors-white);
+  font-size: clamp(1.2rem, 2.1vw, 1.8rem);
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: -2px;
   font-weight: var(--chakra-font-weights-bold);
 }
