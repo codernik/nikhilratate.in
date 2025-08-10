@@ -3,7 +3,7 @@ import Aurora from "./components/Aurora";
 // import LetterGlitch from "./components/LetterGlitch";
 import ShinyText from "./components/ShinyText";
 import SplashCursor from "./components/SplashCursor";
-import StarBorder from "./components/StarBorder";
+// import StarBorder from "./components/StarBorder";
 // import TargetCursor from "./components/TargetCursor";
 
 function App() {
