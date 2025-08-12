@@ -43,7 +43,7 @@
   font-size: clamp(1.2rem, 2.1vw, 1.8rem);
   line-height: 1.2;
   text-align: center;
-  letter-spacing: -2px;
+  /* letter-spacing: -2px; */
   /* font-weight: var(--chakra-font-weights-bold); */
 }
 
